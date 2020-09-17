@@ -1,0 +1,26 @@
+.card {
+  width: 150%;
+  background-image: linear-gradient(to bottom, #ff4a57, #ff7773);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0.5em;
+  padding: 20px 0;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.45);
+}
+
+.card > img {
+  height: 200px;
+}
+
+.card * {
+  font-size: 80%;
+}
+.day {
+  font-size: 25px;
+}
+
+.card.cold {
+  background-image: linear-gradient(to bottom, #607aff, #9c8fff);
+}
